@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Jokes</title>
+    </head>
+    <link rel="stylesheet" href="./styles.css" />
+    <body>
+        <main>
+            <div class="container">
+                <img src="./chuck.png" alt="chuck" />
+                <span>Please select joke category</span>
+                <select name="category" id="category"></select>
+                <button class="btn" type="button">make me laugh</button>
+
+                <div class="counters">
+                    <div class="uniqueCounter">
+                        <span class="spanText">Unique jokes counter:</span>
+                        <div class="counterU">0</div>
+                    </div>
+                    <div class="dublicatesCounter">
+                        <span class="spanText">Dublicated jokes counter:</span>
+                        <div class="counterD">0</div>
+                    </div>
+                </div>
+
+                <p class="content"></p>
+            </div>
+        </main>
+        <script src="./app.js"></script>
+    </body>
+</html>
